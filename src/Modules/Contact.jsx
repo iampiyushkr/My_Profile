@@ -29,7 +29,7 @@ const Contact = () => {
   }
 
   return (
-    <>
+    <div style={{backgroundColor:"lightYellow"}}>
       <CustomNav />
       <div
         className="position-absolute w-100 d-none d-md-block"
@@ -47,6 +47,7 @@ const Contact = () => {
       </div>
       <Container
         className={`${textContainerWidthClass} mt-5 float-md-right text-right mr-lg-5`}
+        style={{float:"right"}}
       >
         <h1
           className="pr-lg-5 pr-xs-3 text-boldest mb-0 color-customBlue"
@@ -112,7 +113,7 @@ const Contact = () => {
           </Button>
         </div>
       </Container>
-    </>
+    </div>
   );
 };
 

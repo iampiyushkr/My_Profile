@@ -26,7 +26,7 @@ const CustomNav = () => {
   const { width } = useWindowDimensions();
   const navbarBgColor = width < 768 ? "white" : "transparent";
   return (
-    <div>
+    <div style={{backgroundColor:"yellowGreen"}}>
       <Navbar bg="transparent" expand="md" className="mt-2">
         {/* <Navbar.Brand href="#home"><span className="font-weight-bold">S</span></Navbar.Brand> */}
         <Link

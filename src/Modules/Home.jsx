@@ -81,10 +81,12 @@ const Home = ({ history }) => {
             <div className="w-50 my-auto d-none d-md-block ">
               {/* <CodingSvg /> */}
               <Image
+                
                 src="images/piyush.jpg"
                 thumbnail
                 fluid
                 className="profilePic"
+                style={{border:"15px solid yellowGreen",borderStyle:"ridge"}}
               />
             </div>
           </div>

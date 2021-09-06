@@ -86,7 +86,7 @@ const Home = ({ history }) => {
                 thumbnail
                 fluid
                 className="profilePic"
-                style={{border:"15px solid yellowGreen",borderStyle:"ridge"}}
+                
               />
             </div>
           </div>

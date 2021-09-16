@@ -98,8 +98,8 @@ export const projectsList = [
   {
     label: "Indiegogo-Clone",
     imgSrc: "images/indiegogo.png",
-    src: "",
-    githubSrc: "",
+    src: "https://indiegogo-clone.netlify.app/",
+    githubSrc: "https://github.com/Avinash7564/indiegogo-clone",
     description: "A crowdfunding website where user can raise fund for their project",
     stack: ["React", "Redux", "Node.js", "CSS", "Bootstrap"],
     blog:"https://medium.com/@iampiyushkr/indiegogo-clone-82597c852784"

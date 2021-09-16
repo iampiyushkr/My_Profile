@@ -43,8 +43,7 @@ const Projects = () => {
                   See This Live
                 </Button>
 
-                {proj.githubSrc && (
-                  <>
+                
                     <Button
                       variant="outline-primary"
                       size="sm"
@@ -54,9 +53,17 @@ const Projects = () => {
                     >
                       Source code
                     </Button>
-                    <br />
-                  </>
-                )}
+                   
+                <Button
+                style={{marginLeft:"2%"}}
+                  variant="outline-primary"
+                  size="sm"
+                  onClick={() => window.open(proj.blog, "_blank")}
+                  className="projectBtn"
+                >
+                  {" "}
+                  Blog
+                </Button>
                 <div className="badgeDiv">
                   {proj.stack?.map((el) => (
                     <Badge pill className="badge">

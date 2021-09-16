@@ -89,10 +89,11 @@ export const projectsList = [
   {
     label: "Bluemercury-Clone",
     imgSrc: "images/bluemercury.jpeg",
-    src: "#",
+    src: "https://bluemercurryclone.netlify.app/",
     githubSrc: "https://github.com/iampiyushkr/bluemercuryClonn",
     description: "A American based company which sells cosmetic product",
-    stack: ["JavaScript","HTML/CSS","Bootstrap"],
+    stack: ["JavaScript", "HTML/CSS", "Bootstrap"],
+    blog:"https://medium.com/@iampiyushkr/bluemercury-clone-74dd6b8a7e47"
   },
   {
     label: "Indiegogo-Clone",
@@ -100,7 +101,8 @@ export const projectsList = [
     src: "",
     githubSrc: "",
     description: "A crowdfunding website where user can raise fund for their project",
-    stack: ["React", "Redux", "Node.js", "CSS","Bootstrap"],
+    stack: ["React", "Redux", "Node.js", "CSS", "Bootstrap"],
+    blog:"https://medium.com/@iampiyushkr/indiegogo-clone-82597c852784"
   },
   {
     label: "Hotwire",
@@ -108,7 +110,8 @@ export const projectsList = [
     src: "https://hotwire.netlify.app/",
     githubSrc: "https://github.com/pallav1998/hotwire_clone",
     description: "Hotwire is a travel website that offers airline tickets, hotel rooms, rental cars, and vacation packages.",
-    stack: ["React", "Redux","Bootstrap","CSS", "Material-UI"],
+    stack: ["React", "Redux", "Bootstrap", "CSS", "Material-UI"],
+    blog:"https://medium.com/@iampiyushkr/project-on-hotwire-clone-649739a53fb6"
   }
   
 ];

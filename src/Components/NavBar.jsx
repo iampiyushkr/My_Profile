@@ -30,7 +30,8 @@ const CustomNav = () => {
       <Navbar bg="transparent" expand="md" className="mt-2">
         {/* <Navbar.Brand href="#home"><span className="font-weight-bold">S</span></Navbar.Brand> */}
         <Link
-          className="font-weight-bold s-logo text-white text-decoration-none"
+          style={{marginLeft:"2%"}}
+          className="font-weight-1000 s-logo text-white text-decoration-none "
           to="/"
         >
           P

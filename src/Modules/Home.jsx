@@ -59,7 +59,7 @@ const Home = ({ history }) => {
                     >
                       <FontAwesomeIcon size="2x" icon={faGithubSquare} />
                     </a>
-                    <a
+                    <a style={{marginLeft:"2%"}}
                       target="_blank"
                       rel="noopener noreferrer"
                       href="https://www.linkedin.com/in/piyush-kumar-09/"

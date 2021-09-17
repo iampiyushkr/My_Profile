@@ -74,13 +74,13 @@ const Contact = () => {
         <br />
 
         <br />
-        <div className="mt-3 mb-3 pr-lg-5 pr-xs-3">
-          <Button className="contact-btns bg-customBlue mr-2 shadow border-0 py-1">
+        <div  className="mt-3 mb-3 pr-lg-5 pr-xs-3">
+          <Button size="lg"  className="contact-btns bg-customBlue mr-2 shadow border-0 py-1">
             <FontAwesomeIcon size="1x" icon={faPhone} />
             <span>9523482250</span>
           </Button>
 
-          <Button
+          <Button size="lg" style={{marginLeft:"2%"}}
             className="contact-btns bg-customBlue mr-2 shadow border-0 py-1"
             onClick={() =>
               window.open("https://www.linkedin.com/in/piyush-kumar-09/", "_blank")
@@ -89,7 +89,7 @@ const Contact = () => {
             <FontAwesomeIcon size="1x" icon={faLinkedinIn} />
             <span>Linkedin</span>
           </Button>
-          <Button
+          <Button size="lg" style={{marginLeft:"2%"}}
             className="contact-btns bg-customBlue mr-2 shadow border-0 py-1"
             onClick={() =>
               window.open("https://github.com/iampiyushkr", "_blank")
@@ -99,7 +99,7 @@ const Contact = () => {
             <span>Github</span>
           </Button>
 
-          <Button
+          <Button size="lg" style={{marginLeft:"2%"}}
             className="contact-btns bg-customBlue shadow border-0 py-1 px-2"
             onClick={() =>
               window.open(

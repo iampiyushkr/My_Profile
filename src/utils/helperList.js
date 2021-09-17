@@ -59,10 +59,6 @@ export const frontSkillsList = [
     src: "https://i.ibb.co/zx0Tt9M/bootstrap.png",
   },
   {
-    label: "Github",
-    src: "https://img.icons8.com/fluent/480/000000/github.png",
-  },
-  {
     label: "NPM",
     src: "https://img.icons8.com/color/480/000000/npm.png",
   },

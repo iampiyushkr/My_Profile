@@ -52,7 +52,7 @@ export const frontSkillsList = [
   },
   {
     label: "Material UI",
-    src: "https://material-ui.com/static/logo_raw.svg",
+    src: "images/icons8-material-ui.svg",
   },
   {
     label: "Bootstrap",

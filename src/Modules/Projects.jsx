@@ -40,7 +40,7 @@ const Projects = () => {
                   className="projectBtn"
                 >
                   {" "}
-                  See This Live
+                  {proj.live}
                 </Button>
 
                 
@@ -62,7 +62,7 @@ const Projects = () => {
                   className="projectBtn"
                 >
                   {" "}
-                  Blog
+                  {proj.blog1}
                 </Button>
                 <div className="badgeDiv">
                   {proj.stack?.map((el) => (

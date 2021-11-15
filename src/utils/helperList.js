@@ -89,7 +89,9 @@ export const projectsList = [
     githubSrc: "https://github.com/iampiyushkr/bluemercuryClonn",
     description: "A American based company which sells cosmetic product",
     stack: ["JavaScript", "HTML/CSS", "Bootstrap"],
-    blog:"https://medium.com/@iampiyushkr/bluemercury-clone-74dd6b8a7e47"
+    blog:"https://medium.com/@iampiyushkr/bluemercury-clone-74dd6b8a7e47",
+    blog1:"Blog",
+    live:"See This Live"
   },
   {
     label: "Indiegogo-Clone",
@@ -98,7 +100,9 @@ export const projectsList = [
     githubSrc: "https://github.com/Avinash7564/indiegogo-clone",
     description: "A crowdfunding website where user can raise fund for their project",
     stack: ["React", "Redux", "Node.js", "CSS", "Bootstrap"],
-    blog:"https://medium.com/@iampiyushkr/indiegogo-clone-82597c852784"
+    blog:"https://medium.com/@iampiyushkr/indiegogo-clone-82597c852784",
+    blog1:"Blog",
+    live:"See This Live"
   },
   {
     label: "Hotwire",
@@ -107,16 +111,20 @@ export const projectsList = [
     githubSrc: "https://github.com/pallav1998/hotwire_clone",
     description: "Hotwire is a travel website that offers airline tickets, hotel rooms, rental cars, and vacation packages.",
     stack: ["React", "Redux", "Bootstrap", "CSS", "Material-UI"],
-    blog:"https://medium.com/@iampiyushkr/project-on-hotwire-clone-649739a53fb6"
+    blog:"https://medium.com/@iampiyushkr/project-on-hotwire-clone-649739a53fb6",
+    blog1:"Blog",
+    live:"See This Live"
   },
   {
     label: "Quora",
     imgSrc: "images/quora-main.png",
-    src: "",
+    src: "projects",
     githubSrc: "https://github.com/sheikhtausif/quora-clone",
     description: "Quora is a community-based questions and answers website and app. Users post questions on any topic and other users respond. Users can sign up using Facebook, Twitter, Google or email.",
-    stack: ["React", "Redux", "Bootstrap","Material-ui", "CSS", "Material-UI","Express","MongoDb"],
-    blog:""
+    stack: ["React", "Redux", "Bootstrap", "CSS", "Material-UI","Express","MongoDb"],
+    blog:"projects",
+    blog1:"Comming Soon",
+    live:"Comming Soon"
   }
   
 ];

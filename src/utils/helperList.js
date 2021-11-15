@@ -108,6 +108,15 @@ export const projectsList = [
     description: "Hotwire is a travel website that offers airline tickets, hotel rooms, rental cars, and vacation packages.",
     stack: ["React", "Redux", "Bootstrap", "CSS", "Material-UI"],
     blog:"https://medium.com/@iampiyushkr/project-on-hotwire-clone-649739a53fb6"
+  },
+  {
+    label: "Quora",
+    imgSrc: "images/quora-main.png",
+    src: "",
+    githubSrc: "https://github.com/sheikhtausif/quora-clone",
+    description: "Quora is a community-based questions and answers website and app. Users post questions on any topic and other users respond. Users can sign up using Facebook, Twitter, Google or email.",
+    stack: ["React", "Redux", "Bootstrap","Material-ui", "CSS", "Material-UI","Express","MongoDb"],
+    blog:""
   }
   
 ];
